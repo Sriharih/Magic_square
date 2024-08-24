@@ -1,0 +1,68 @@
+A magic square is a square grid filled with distinct positive integers arranged such that the sum of the numbers in each row, column, and diagonal is the same. This common sum is known as the "magic constant" or "magic sum."
+
+Key Concepts:
+Magic Constant: For an 
+�
+×
+�
+n×n magic square, the magic constant 
+�
+M can be calculated using the formula:
+
+�
+=
+�
+×
+(
+�
+2
++
+1
+)
+2
+M= 
+2
+n×(n 
+2
+ +1)
+​
+ 
+where 
+�
+n is the number of rows and columns in the square.
+
+Properties:
+
+All rows, columns, and diagonals must sum to the same value.
+The integers used typically range from 
+1
+1 to 
+�
+2
+n 
+2
+ , where 
+�
+n is the number of rows/columns in the square.
+Types of Magic Squares:
+
+Odd-Order Magic Square: The order 
+�
+n is odd (e.g., 3x3, 5x5).
+Even-Order Magic Square: The order 
+�
+n is even. These can be further classified into:
+Doubly Even: 
+�
+n is a multiple of 4 (e.g., 4x4, 8x8).
+Singly Even: 
+�
+n is even but not a multiple of 4 (e.g., 6x6).
+Construction Methods:
+
+Odd-Order Magic Square (e.g., 3x3): The most common method is the Siamese method or De la Loubere's method:
+Start by placing the number 1 in the middle of the top row.
+Move up one row and to the right one column to place the next number. If this move takes you out of the square, wrap around to the opposite side.
+If a cell is already occupied, move down one cell instead and continue.
+Doubly Even Magic Square (e.g., 4x4): A typical method is to fill the grid sequentially and then swap certain diagonals.
+Singly Even Magic Square (e.g., 6x6): Requires a more complex method, often combining the odd-order and doubly even techniques.
